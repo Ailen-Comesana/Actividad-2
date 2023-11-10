@@ -1,0 +1,82 @@
+@import url(./inicio.css);
+@import url(./cafeterias.css);
+@import url(./contacto.css);
+@import url(./galeria.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+header{
+    background-color: gray;
+}
+h1  {
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+h2 {
+    font-weight: 500;
+    margin:6px ;
+
+}
+
+nav {
+    background-color: black;
+    border: 0.5px solid;
+}
+li {
+   
+    margin: 0 10px;
+    color: white;
+}
+li :hover{
+color: grey;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    align-items: center;
+}
+    
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lora', serif;
+}
+.img-header{
+    width: 80px;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer {
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-style: italic;
+    margin-top: 2em;
+    }
+   
+    .img-footer {
+        width: 60px;
+        height:60px;
+    }
+
+

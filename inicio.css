@@ -1,0 +1,24 @@
+@import url(./style.css);
+
+.main-inicio{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: colum;
+    align-items: center;
+}
+
+
+.section-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-inicio {
+    width: 80%;
+    
+}
+.welcome-box {
+    width: 80%;
+   
+    }

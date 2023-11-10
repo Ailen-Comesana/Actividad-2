@@ -1,0 +1,29 @@
+
+@import url(./style.css);
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    }
+
+
+.galeria-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap
+    
+}
+.container-img-galeria{
+    width: 205px;
+    height:205px;
+    }
+
+.img-galeria{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}

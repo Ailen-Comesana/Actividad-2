@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    
+    <title>Actividad 2</title>
+</head>
+<body>
+
+    <header>
+        <div class="div-header">
+            <div>
+                <img class="img-header" src="./Imagenes/taza cafe.png" alt="taza cafe">
+            </div>
+            <div>
+                <h1>Cafeterias de Especialidad en Buenos Aires</h1>
+            </div>
+              
+        </div>
+
+        <nav>
+            
+            <div>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./cafeterias.html">Cafeterias</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                
+                </ul>
+            </div>
+            
+        </nav>
+    </header> 
+   
+    <main>
+        <section>
+            <h1 class="h1-contacto">Formulario de contacto</h1>
+            <div>
+                <div class="contact_form">
+
+                    <div class="formulario">			
+                  
+                            <h2 class="h2-formulario">Escríbenos y en breve los pondremos en contacto contigo</h2>
+            
+            
+                                <form action="submeter-formulario.php" method="post">				
+            
+                                    
+                                            <p class="p-formulario">
+                                                <label for="nombre" class="colocar_nombre">Nombre
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                            </p>
+                                        
+                                            <p class="p-formulario">
+                                                <label for="email" class="colocar_email">Email
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                            </p>
+                                    
+                                            <p class="p-formulario">
+                                                <label for="telefone" class="colocar_telefono">Teléfono
+                                                </label>
+                                                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                            </p>		
+                                        
+                                            <p class="p-formulario">
+                                                <label for="website" class="colocar_website">Sitio web
+                                                </label>
+                                                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                            </p>		
+                                        
+                                            <p class="p-formulario">
+                                                <label for="asunto" class="colocar_asunto">Asunto
+                                                    <span class="obligatorio">*</span>
+                                                </label>
+                                                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                            </p>		
+                                        
+                                            <p class="p-formulario">
+                                                <label for="mensaje" class="colocar_mensaje">Mensaje
+                                                    <span class="obligatorio">*</span>
+                                                </label>                     
+                                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                               </p>	  
+                                               
+                                               <div class="selec">
+                                                <label for="cafeteria">Tu cafeteria Favorita</label>
+                                             <select name="Cafeterias" id="cafeteria">
+                                                <option value="Cigaló Specialty Coffee">Cigaló Specialty Coffee</option>
+                                                <option value="Cuervo Café">Cuervo Café</option>
+                                                <option value="Ol’Days">Ol’Days</option>
+                                                <option value="Padre Coffee and Beer">Padre Coffee and Beer</option>
+                                                <option value="Coffee Town">Coffee Town</option>
+                                                <option value="Rondó Café">Rondó Café</option>
+                                               </div>
+                                               
+                                              </select>
+
+                                              <div class="checkbox">
+                                                <input type="checkbox" id="Deseas recibir info" name="Desea recibir info" value="Si">
+                                                <label for="Desea recibir info"> Desea recibir info</label><br>
+                                                <input type="checkbox" id="Te fue util la info" name="Te fue util la info" value="Si">
+                                                <label for="Te fue util la info"> Te fue util la info</label><br>
+                                             </div>
+
+                                        
+                                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+            
+                                            <p class="aviso">
+                                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                                            </p>	
+                                            
+                                        
+                                </form>
+                    </div>	
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div>
+        <img class="img-footer" src="./Imagenes/comillas.png" alt="comillas">
+      </div>
+      <div>
+        <p>La vida es eso que empieza después de tomar un café</p>
+      </div>
+    </footer>
+</body>
+</html>
