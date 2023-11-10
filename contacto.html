@@ -43,14 +43,14 @@
         <section>
             <h1 class="h1-contacto">Formulario de contacto</h1>
             <div>
-                <div class="contact_form">
+                <div class="contacto_form">
 
                     <div class="formulario">			
                   
-                            <h2 class="h2-formulario">Escríbenos y en breve los pondremos en contacto contigo</h2>
+                            <h2 class="h2-formulario">Si te interesa la info. dejanos tu contacto</h2>
             
             
-                                <form action="submeter-formulario.php" method="post">				
+                                <form>				
             
                                     
                                             <p class="p-formulario">
@@ -68,15 +68,15 @@
                                             </p>
                                     
                                             <p class="p-formulario">
-                                                <label for="telefone" class="colocar_telefono">Teléfono
+                                                <label for="telefono" class="colocar_telefono">Teléfono
                                                 </label>
                                                     <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
                                             </p>		
                                         
                                             <p class="p-formulario">
-                                                <label for="website" class="colocar_website">Sitio web
+                                                <label for="red_social" class="colocar_red_social">Red Social
                                                 </label>
-                                                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                                    <input type="url" name="introducir_red_social" id="red-social" placeholder="Escribe tu red social">
                                             </p>		
                                         
                                             <p class="p-formulario">
@@ -90,34 +90,44 @@
                                                 <label for="mensaje" class="colocar_mensaje">Mensaje
                                                     <span class="obligatorio">*</span>
                                                 </label>                     
-                                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Dejanos un comentario..."></textarea> 
                                                </p>	  
                                                
                                                <div class="selec">
-                                                <label for="cafeteria">Tu cafeteria Favorita</label>
-                                             <select name="Cafeterias" id="cafeteria">
-                                                <option value="Cigaló Specialty Coffee">Cigaló Specialty Coffee</option>
-                                                <option value="Cuervo Café">Cuervo Café</option>
-                                                <option value="Ol’Days">Ol’Days</option>
-                                                <option value="Padre Coffee and Beer">Padre Coffee and Beer</option>
-                                                <option value="Coffee Town">Coffee Town</option>
-                                                <option value="Rondó Café">Rondó Café</option>
+                                                
+                                                 <label for="cafeteria">Tu cafeteria Favorita</label>
+                                                 <select name="cafeteria" id="cafeteria">
+                                                     
+                                                     <option value="Cigaló Specialty Coffee">Cigaló Specialty Coffee</option>
+                                                    
+                                                     <option value="Cuervo Café">Cuervo Café</option>
+                                                    
+                                                     <option value="Ol’Days">Ol’Days</option>
+                                                    
+                                                     <option value="Padre Coffee and Beer">Padre Coffee and Beer</option>
+                                                    
+                                                     <option value="Coffee Town">Coffee Town</option>
+                                                    
+                                                     <option value="Rondó Café">Rondó Café</option>
+                                                 </select>
                                                </div>
                                                
-                                              </select>
+                                              
 
                                               <div class="checkbox">
-                                                <input type="checkbox" id="Deseas recibir info" name="Desea recibir info" value="Si">
-                                                <label for="Desea recibir info"> Desea recibir info</label><br>
-                                                <input type="checkbox" id="Te fue util la info" name="Te fue util la info" value="Si">
-                                                <label for="Te fue util la info"> Te fue util la info</label><br>
+                                                  <input type="checkbox" id="Deseas recibir info" name="Desea recibir info" value="Si">
+                                                  <label for="Desea recibir info"> Desea recibir info
+                                                  </label><br>
+                                                
+                                                  <input type="checkbox" id="Te fue util la info" name="Te fue util la info" value="Si">
+                                                  <label for="Te fue util la info"> Te fue util la info</label><br>
                                              </div>
 
                                         
                                             <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
             
                                             <p class="aviso">
-                                                <span class="obligatorio"> * </span>los campos son obligatorios.
+                                                <span class="obligatorio"> * </span>Los campos son obligatorios.
                                             </p>	
                                             
                                         

@@ -1,7 +1,7 @@
 
 @import url(./style.css);
 
-.contact_form{	
+.contacto_form{	
 	width: 460px; 
   height: auto;
   margin: 80px auto;
@@ -60,7 +60,7 @@ button{
 	border-style: solid; 
 	border-radius: 10px;	
 	width: 420px;   
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -99,16 +99,6 @@ span{
 .p-formulario{
 	font-size: 14px; 
 	color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
 }
 
 
